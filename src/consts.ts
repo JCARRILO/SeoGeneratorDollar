@@ -1,5 +1,5 @@
-// Place any global data in this file.
-// You can import this data from anywhere in your site by using the `import` keyword.
+// Datos globales del sitio
+// Puedes importar estas constantes desde cualquier parte del proyecto usando `import`
 
-export const SITE_TITLE = 'Seo  Generator Dollars';
-export const SITE_DESCRIPTION = 'Binvenid@s A La Monetizacion De Tus Web  De Nicho!';
+export const SITE_TITLE = 'Content Creator Apps';
+export const SITE_DESCRIPTION = 'Plataforma con estrategia SEO dedicada a monetizar sitios web de nicho mediante contenido optimizado, herramientas digitales y automatización.';

@@ -1,0 +1,45 @@
+---
+import BaseHead from '../components/BaseHead.astro';
+import Header from '../components/Header.astro';
+import Footer from '../components/Footer.astro';
+
+const pageTitle = 'Contacto';
+const pageDescription = 'Ponte en contacto con JotaCarrillo, editor de ContentCreationApps.com. Colaboraciones, sugerencias o preguntas son bienvenidas.';
+---
+
+<html lang="es">
+  <head>
+    <BaseHead title={pageTitle} description={pageDescription} />
+  </head>
+  <body>
+    <Header />
+    <main style="max-width: 720px; margin: auto; padding: 2em 1em;">
+      <h1>📬 Contacto</h1>
+      <p>
+        Gracias por visitar <strong>ContentCreationApps.com</strong>. Si tienes preguntas, deseas colaborar, proponer herramientas para analizar, o simplemente quieres saludar, aquí tienes cómo hacerlo:
+      </p>
+
+      <h2>📧 Correo electrónico</h2>
+      <p>
+        Puedes escribirme directamente a:  
+        <code>jcarrillo.contacto@gmail.com</code>
+      </p>
+
+      <h2>🔗 Redes sociales</h2>
+      <ul>
+        <li>
+          X (antes Twitter): <a href="https://x.com/EL4400J" target="_blank">@EL4400J</a>
+        </li>
+        <li>
+          GitHub: <a href="https://github.com/JCARRILO" target="_blank">github.com/JCARRILO</a>
+        </li>
+      </ul>
+
+      <p style="margin-top: 2em;">
+        ¿Quieres que publiquemos tu herramienta o producto? Escríbeme con confianza.  
+        ¡Estoy construyendo esto para ti!
+      </p>
+    </main>
+    <Footer />
+  </body>
+</html>

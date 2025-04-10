@@ -1,0 +1,49 @@
+---
+import BaseHead from '../components/BaseHead.astro';
+import Header from '../components/Header.astro';
+import Footer from '../components/Footer.astro';
+
+const pageTitle = 'Términos y Condiciones';
+const pageDescription = 'Lee los términos y condiciones de uso de ContentCreationApps.com. Al acceder a este sitio, aceptas nuestras políticas.';
+---
+
+<html lang="es">
+  <head>
+    <BaseHead title={pageTitle} description={pageDescription} />
+  </head>
+  <body>
+    <Header />
+    <main style="max-width: 720px; margin: auto; padding: 2em 1em;">
+      <h1>📄 Términos y Condiciones</h1>
+
+      <p>
+        Al acceder y utilizar el sitio <strong>ContentCreationApps.com</strong>, aceptas cumplir con los siguientes términos y condiciones. Si no estás de acuerdo con alguna parte de ellos, por favor no utilices este sitio web.
+      </p>
+
+      <h2>1. Uso del contenido</h2>
+      <p>
+        Todo el contenido publicado en este sitio tiene fines informativos. No garantizamos que la información esté libre de errores o completamente actualizada. El uso que hagas del contenido es bajo tu propia responsabilidad.
+      </p>
+
+      <h2>2. Propiedad intelectual</h2>
+      <p>
+        A menos que se indique lo contrario, el contenido de este sitio (textos, imágenes, logotipos, diseños) es propiedad de JotaCarrillo. No se permite su reproducción sin autorización previa.
+      </p>
+
+      <h2>3. Enlaces externos</h2>
+      <p>
+        Algunos enlaces en este sitio pueden llevar a páginas de terceros. No tenemos control sobre su contenido ni asumimos responsabilidad alguna por ellos.
+      </p>
+
+      <h2>4. Cambios en los términos</h2>
+      <p>
+        Nos reservamos el derecho a modificar estos términos en cualquier momento. Te recomendamos revisarlos periódicamente.
+      </p>
+
+      <p style="margin-top: 2em;">
+        Última actualización: 9 de abril de 2025.
+      </p>
+    </main>
+    <Footer />
+  </body>
+</html>
