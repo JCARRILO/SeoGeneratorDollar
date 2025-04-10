@@ -4,23 +4,19 @@ const today = new Date();
 
 <footer>
 	&copy; {today.getFullYear()} ContentCreationApps.com. Todos los derechos reservados.
+
 	<div class="footer-links">
 		<a href="/politica-de-privacidad">Política de Privacidad</a>
 		<a href="/terminos-y-condiciones">Términos y Condiciones</a>
 		<a href="/contacto">Contacto</a>
 	</div>
+
 	<div class="social-links">
-		<a href="https://x.com/EL4400J" target="_blank">
-			<span class="sr-only">Sígueme en X (Twitter)</span>
-			<svg viewBox="0 0 16 16" aria-hidden="true" width="32" height="32" astro-icon="social/twitter">
-				<path fill="currentColor" d="M5.026 15c6.038 0 9.341-5.003 9.341-9.334..."></path>
-			</svg>
+		<a href="https://x.com/EL4400J" target="_blank" rel="noopener" aria-label="Sígueme en X (Twitter)">
+			<img src="/xpng.png" alt="Logo X" width="24" height="24" />
 		</a>
-		<a href="https://github.com/JCARRILO" target="_blank">
-			<span class="sr-only">Mi GitHub</span>
-			<svg viewBox="0 0 16 16" aria-hidden="true" width="32" height="32" astro-icon="social/github">
-				<path fill="currentColor" d="M8 0C3.58 0 0 3.58 0 8c0 3.54..."></path>
-			</svg>
+		<a href="https://github.com/JCARRILO" target="_blank" rel="noopener" aria-label="Mi GitHub">
+			<img src="/githubpng.png" alt="Logo GitHub" width="24" height="24" />
 		</a>
 	</div>
 </footer>
@@ -53,11 +49,12 @@ const today = new Date();
 		gap: 1em;
 		margin-top: 1.5em;
 	}
-	.social-links a {
-		text-decoration: none;
-		color: rgb(var(--gray));
+	.social-links a img {
+		display: block;
+		width: 24px;
+		height: 24px;
 	}
 	.social-links a:hover {
-		color: rgb(var(--gray-dark));
+		opacity: 0.8;
 	}
 </style>
